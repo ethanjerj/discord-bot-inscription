@@ -54,7 +54,7 @@ client.on("interactionCreate", async interaction => {
 
   try {
     await interaction.user.send(
-      `👋 Salut ${interaction.user.username} !\n\n✅ Ton inscription est confirmée !\nTu recevras ici les prochaines informations.`
+      `👋 Salut ${interaction.user.username} !\n\n✅ Ton inscription est confirmée !\n COUCOU LE SERVEUR DU SERVEUR ET 91.197.6.134.25580 .`
     );
     await interaction.editReply("✅ Inscription réussie ! Regarde tes messages privés.");
   } catch (error) {
